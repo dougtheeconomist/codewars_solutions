@@ -14,9 +14,6 @@ def move_zeros(array):
 
         elif step[i] == 0:
             step.append(step.pop(i))
-        
-        else:
-            pass
 
     return step
 
